@@ -1,0 +1,44 @@
+<header id="header">
+  <div class="wrapper">
+    <a [routerLink]="['']">
+      <img src="../../../assets/images/lg.jpg" alt="logo">
+    </a>
+
+    <button id="submenu" onclick="showMenu(event)">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+
+    <!-- MENU LINKS  -->
+
+    <ul class="menu-left">
+      <li>
+        <a [routerLink]="['']">Acceuil</a>
+      </li>
+      <li>
+        <a [routerLink]="['services']">Services</a>
+      </li>
+      <li>
+        <a [routerLink]="['equipe']">Equipe</a>
+      </li>
+      <li>
+        <a [routerLink]="['realisations']">Réalisations</a>
+      </li>
+      <li>
+        <a [routerLink]="['references']">Réferences</a>
+      </li>
+      <li>
+        <a [routerLink]="['contact']">Contact</a>
+      </li>
+    </ul>
+    <ul class="menu-right">
+      <li class="menu-cta">
+        <a [routerLink]="['']">
+          Contacter Nous
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
